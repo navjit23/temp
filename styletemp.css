@@ -1,0 +1,76 @@
+body{
+    margin: 0%;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#up{background-color: orange;
+    display: flex;
+    justify-content:space-between;
+    ;
+
+}
+#nav{background-color: black;
+    margin: 0mm;
+    padding: 0%;
+    color: white;
+}
+
+#nav ul{
+    text-decoration: none;
+    justify-content: space-around;
+}
+#nav ul li{
+    display: inline-block;
+}
+#nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+#nav ul li a:hover{
+    color: rgb(89, 130, 167);
+}
+
+#girl_pic{
+    background-image: url(newpic.jpg);
+    background-repeat: no-repeat;
+    height:300px;
+    
+}
+
+.divi{
+    background-color: rgba(128, 128, 128, 0.171);
+    border-radius: 1px;
+    width: 20%;
+    margin: 10px 10%;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.services ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.services ul li{
+    width: 150px;
+    height: 70px;
+    background-color: rgba(128, 128, 128, 0.171);
+    display: inline-block;
+    margin-left: 8%;
+    text-align: center;
+    padding: 10px 5px;
+
+}
+
+.services button{
+    position: relative;
+    top: -42px;
+    left: 1250px
+}
+
+.forum{
+    display: flex;
+    background-image: url(newpic.jpg) ;
+}
