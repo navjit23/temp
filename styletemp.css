@@ -74,3 +74,12 @@ body{
     display: flex;
     background-image: url(newpic.jpg) ;
 }
+
+#about_us{
+    display:flex;
+}
+@media screen and (max-width:700px) {
+    #about_us{
+        display: grid;
+    }   
+}
